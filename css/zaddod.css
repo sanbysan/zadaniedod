@@ -1,0 +1,133 @@
+@charset="utf-8"; 
+/* * {
+	border: 1px solid black;
+}*/
+#top {
+	background: linear-gradient(to right,  #153a60 0%,#1d548a 50%,#266db4 100%);
+	width: 900px;
+	height: 80px;
+	margin: auto;
+	text-align: right;
+}
+#top img {
+	margin: 10px 15px 0px 0px;
+}
+#header {
+	height: 400px;
+	width: 800px;
+	background: url("../img/paper_people.png");
+	background-size: cover;
+	margin: 10px auto 0 auto;
+}
+#header h1 {
+	font-family: "Questrial", sans-serif;
+	font-size: 32px;
+	color: #1d548a;
+	text-align: right;
+}
+#header h1 span {
+	background: linear-gradient(to right,  #153a60 0%,#1d548a 50%,#266db4 100%);
+	color: #fff;
+}
+#header h2 {
+	font-family: "Questrial", sans-serif;
+	font-size: 20px;
+	color: #266db4;
+	margin: 240px 0 0 20px;
+}
+#content1 {
+	width: 800px;
+	height: 1350px;
+	background: #dfdfd6;
+	margin: auto;
+}
+#content1 > h3 {
+	font-family: "Questrial", sans-serif;
+	font-size: 18px;
+	color: #1d548a;
+	text-align: center;
+	/*margin: 15px 0 0 0;*/
+	padding-top: 20px;
+}
+#content1 > p {
+	font-family: "Questrial", sans-serif;
+	font-size: 18px;
+	color: #000000;
+	text-align: center;
+	padding: 0 90px 0 90px;
+}
+#content2 {
+	width: 800px;
+	height: 470px;
+	background: #dfdfd6;
+	margin: auto;
+}
+#content2 > h3 {
+	font-family: "Questrial", sans-serif;
+	font-size: 18px;
+	color: #1d548a;
+	text-align: center;
+	/*margin: 15px 0 0 0;*/
+	padding-top: 20px;
+}
+#content2 > p {
+	font-family: "Questrial", sans-serif;
+	font-size: 18px;
+	color: #000000;
+	text-align: center;
+	padding: 0 90px 0 90px;
+}
+#content3 {
+	width: 800px;
+	height: 520px;
+	background: #dfdfd6;
+	margin: auto;
+}
+#content3 > h3 {
+	font-family: "Questrial", sans-serif;
+	font-size: 18px;
+	color: #1d548a;
+	text-align: center;
+	/*margin: 15px 0 0 0;*/
+	padding-top: 20px;
+}
+#content3 > p {
+	font-family: "Questrial", sans-serif;
+	font-size: 18px;
+	color: #000000;
+	text-align: center;
+	padding: 0 90px 0 90px;
+}
+.scanners {
+	width: 400px;
+	float: left;
+}
+.scanners img {
+	margin: 0 0 0 125px;
+}
+.scanners h3 {
+	font-family: "Questrial", sans-serif;
+	font-size: 18px;
+	color: #000000;
+	text-align: center;
+}
+.scanners p {
+	font-family: "Questrial", sans-serif;
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	padding: 0 20px;
+}
+.scanners img:nth-child(4) {
+	height: 36px;
+	width: 75px;
+	margin: 0 0 15px 160px;
+}
+#content3 .scanners img {
+	margin: 0 0 0 40px;
+}
+#content3 .scanners img:nth-child(4) {
+	height: 36px;
+	width: 75px;
+	margin: 0 0 15px 160px;
+}
