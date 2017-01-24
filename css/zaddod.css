@@ -1,7 +1,5 @@
 @charset="utf-8"; 
-/* * {
-	border: 1px solid black;
-}*/
+
 #top {
 	background: linear-gradient(to right,  #153a60 0%,#1d548a 50%,#266db4 100%);
 	width: 900px;
@@ -35,18 +33,19 @@
 	color: #266db4;
 	margin: 240px 0 0 20px;
 }
+
+/*Content*/
 #content1 {
 	width: 800px;
-	height: 1350px;
+	overflow: auto;
 	background: #dfdfd6;
-	margin: auto;
+	margin: 20px auto;
 }
-#content1 > h3 {
+#content1 > h2 {
 	font-family: "Questrial", sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	color: #1d548a;
 	text-align: center;
-	/*margin: 15px 0 0 0;*/
 	padding-top: 20px;
 }
 #content1 > p {
@@ -56,18 +55,19 @@
 	text-align: center;
 	padding: 0 90px 0 90px;
 }
+
+
 #content2 {
 	width: 800px;
-	height: 470px;
+	overflow: auto;
 	background: #dfdfd6;
-	margin: auto;
+	margin: 20px auto;
 }
-#content2 > h3 {
+#content2 > h2 {
 	font-family: "Questrial", sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	color: #1d548a;
 	text-align: center;
-	/*margin: 15px 0 0 0;*/
 	padding-top: 20px;
 }
 #content2 > p {
@@ -77,18 +77,19 @@
 	text-align: center;
 	padding: 0 90px 0 90px;
 }
+
+
 #content3 {
 	width: 800px;
-	height: 520px;
+	overflow: auto;
 	background: #dfdfd6;
-	margin: auto;
+	margin: 20px auto;
 }
-#content3 > h3 {
+#content3 > h2 {
 	font-family: "Questrial", sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	color: #1d548a;
 	text-align: center;
-	/*margin: 15px 0 0 0;*/
 	padding-top: 20px;
 }
 #content3 > p {
@@ -98,14 +99,16 @@
 	text-align: center;
 	padding: 0 90px 0 90px;
 }
+
+
+/*SCANNERS*/
 .scanners {
 	width: 400px;
 	float: left;
+	text-align: center;
+	margin-bottom: 15px;
 }
-.scanners img {
-	margin: 0 0 0 125px;
-}
-.scanners h3 {
+.scanners > h2 {
 	font-family: "Questrial", sans-serif;
 	font-size: 18px;
 	color: #000000;
@@ -118,16 +121,47 @@
 	text-align: center;
 	padding: 0 20px;
 }
-.scanners img:nth-child(4) {
-	height: 36px;
-	width: 75px;
-	margin: 0 0 15px 160px;
+
+
+
+/*BUTTON*/
+#content1 .button {
+	height: 26px;
+	width: 65px;
+	background: #1d548a;
+	text-align: center;
+	margin: auto;
 }
-#content3 .scanners img {
-	margin: 0 0 0 40px;
+#content1 .button h2 {
+	font-family: "Questrial", sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	padding-top: 4px;
 }
-#content3 .scanners img:nth-child(4) {
-	height: 36px;
-	width: 75px;
-	margin: 0 0 15px 160px;
+#content2 .button {
+	height: 26px;
+	width: 65px;
+	background: #1d548a;
+	text-align: center;
+	margin: auto;
 }
+#content2 .button h2 {
+	font-family: "Questrial", sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	padding-top: 4px;
+}
+#content3 .button {
+	height: 26px;
+	width: 65px;
+	background: #1d548a;
+	text-align: center;
+	margin: auto;
+}
+#content3 .button h2 {
+	font-family: "Questrial", sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	padding-top: 4px;
+}
+	
