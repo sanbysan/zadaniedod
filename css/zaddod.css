@@ -1,5 +1,7 @@
 @charset="utf-8"; 
-
+/** {
+	border: 1px solid black;
+}*/
 #top {
 	background: linear-gradient(to right,  #153a60 0%,#1d548a 50%,#266db4 100%);
 	width: 900px;
@@ -17,21 +19,34 @@
 	background-size: cover;
 	margin: 10px auto 0 auto;
 }
-#header h1 {
+#header_top {
+	height: 50%;
+	width: 100%;
+	text-align: right;
+}
+#header_down {
+	height: 50%;
+	width: 100%;
+}
+#header_top h1 {
+	background: linear-gradient(to right,  #153a60 0%,#1d548a 50%,#266db4 100%);
+	color: #fff;
+	font-family: "Questrial", sans-serif;
+	font-size: 32px;
+	padding-right: 5px;
+}
+#header_top h2 {
 	font-family: "Questrial", sans-serif;
 	font-size: 32px;
 	color: #1d548a;
-	text-align: right;
+	padding-right: 5px;
+	line-height: 0px;
 }
-#header h1 span {
-	background: linear-gradient(to right,  #153a60 0%,#1d548a 50%,#266db4 100%);
-	color: #fff;
-}
-#header h2 {
+#header_down h2 {
 	font-family: "Questrial", sans-serif;
 	font-size: 20px;
 	color: #266db4;
-	margin: 240px 0 0 20px;
+	padding: 120px 0 0 25px;
 }
 
 /*Content*/
@@ -103,7 +118,8 @@
 
 /*SCANNERS*/
 .scanners {
-	width: 400px;
+	/*width: 400px;*/
+	width: 50%;
 	float: left;
 	text-align: center;
 	margin-bottom: 15px;
