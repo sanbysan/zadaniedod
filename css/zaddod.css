@@ -28,12 +28,12 @@
 	height: 50%;
 	width: 100%;
 }
-#header_top h1 {
+#header_top h1 span {
 	background: linear-gradient(to right,  #153a60 0%,#1d548a 50%,#266db4 100%);
 	color: #fff;
 	font-family: "Questrial", sans-serif;
 	font-size: 32px;
-	padding-right: 5px;
+	padding: 0 10px 0 10px;
 }
 #header_top h2 {
 	font-family: "Questrial", sans-serif;
