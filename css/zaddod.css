@@ -12,102 +12,58 @@
 #top img {
 	margin: 10px 15px 0px 0px;
 }
-#header {
+header {
 	height: 400px;
 	width: 800px;
 	background: url("../img/paper_people.png");
 	background-size: cover;
-	margin: 10px auto 0 auto;
-}
-#header_top {
-	height: 50%;
-	width: 100%;
+	margin: 30px auto 0 auto;
 	text-align: right;
 }
-#header_down {
-	height: 50%;
-	width: 100%;
-}
-#header_top h1 span {
+header h1 {
 	background: linear-gradient(to right,  #153a60 0%,#1d548a 50%,#266db4 100%);
 	color: #fff;
 	font-family: "Questrial", sans-serif;
 	font-size: 32px;
-	padding: 0 10px 0 10px;
+	display: inline;
+	padding: 3px 8px;
 }
-#header_top h2 {
+header h2 {
 	font-family: "Questrial", sans-serif;
 	font-size: 32px;
 	color: #1d548a;
 	padding-right: 5px;
 	line-height: 0px;
 }
-#header_down h2 {
-	font-family: "Questrial", sans-serif;
-	font-size: 20px;
-	color: #266db4;
-	padding: 120px 0 0 25px;
+#div1 {
+	width: /*80%*/;
+	height: 50%;
+	text-align: left;
 }
+#div1 h2 {
+	font-family: "Questrial", sans-serif;
+	font-size: 22px;
+	color: #266db4;
+	line-height: 25px;
+	padding: 220px 0 0 20px;
+}
+
 
 /*Content*/
-#content1 {
+.content {
 	width: 800px;
 	overflow: auto;
 	background: #dfdfd6;
 	margin: 20px auto;
 }
-#content1 > h2 {
+.content > h2 {
 	font-family: "Questrial", sans-serif;
 	font-size: 20px;
 	color: #1d548a;
 	text-align: center;
 	padding-top: 20px;
 }
-#content1 > p {
-	font-family: "Questrial", sans-serif;
-	font-size: 18px;
-	color: #000000;
-	text-align: center;
-	padding: 0 90px 0 90px;
-}
-
-
-#content2 {
-	width: 800px;
-	overflow: auto;
-	background: #dfdfd6;
-	margin: 20px auto;
-}
-#content2 > h2 {
-	font-family: "Questrial", sans-serif;
-	font-size: 20px;
-	color: #1d548a;
-	text-align: center;
-	padding-top: 20px;
-}
-#content2 > p {
-	font-family: "Questrial", sans-serif;
-	font-size: 18px;
-	color: #000000;
-	text-align: center;
-	padding: 0 90px 0 90px;
-}
-
-
-#content3 {
-	width: 800px;
-	overflow: auto;
-	background: #dfdfd6;
-	margin: 20px auto;
-}
-#content3 > h2 {
-	font-family: "Questrial", sans-serif;
-	font-size: 20px;
-	color: #1d548a;
-	text-align: center;
-	padding-top: 20px;
-}
-#content3 > p {
+.content > p {
 	font-family: "Questrial", sans-serif;
 	font-size: 18px;
 	color: #000000;
@@ -118,9 +74,9 @@
 
 /*SCANNERS*/
 .scanners {
-	/*width: 400px;*/
 	width: 50%;
 	float: left;
+	display: block;
 	text-align: center;
 	margin-bottom: 15px;
 }
@@ -141,43 +97,21 @@
 
 
 /*BUTTON*/
-#content1 .button {
-	height: 26px;
+.button {
+	height: 24px;
 	width: 65px;
 	background: #1d548a;
 	text-align: center;
 	margin: auto;
+	padding-top: 2px;
 }
-#content1 .button h2 {
+.button a {
 	font-family: "Questrial", sans-serif;
 	font-size: 16px;
+	font-weight: bold;
 	color: #ffffff;
-	padding-top: 4px;
+	text-decoration: none;
 }
-#content2 .button {
-	height: 26px;
-	width: 65px;
-	background: #1d548a;
-	text-align: center;
-	margin: auto;
+a:hover {
+	color: #dfdfd6;
 }
-#content2 .button h2 {
-	font-family: "Questrial", sans-serif;
-	font-size: 16px;
-	color: #ffffff;
-	padding-top: 4px;
-}
-#content3 .button {
-	height: 26px;
-	width: 65px;
-	background: #1d548a;
-	text-align: center;
-	margin: auto;
-}
-#content3 .button h2 {
-	font-family: "Questrial", sans-serif;
-	font-size: 16px;
-	color: #ffffff;
-	padding-top: 4px;
-}
-	
